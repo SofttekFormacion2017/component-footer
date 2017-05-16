@@ -1,5 +1,5 @@
 angular
-  .module('ghr.footer')
+  .module('ghr.footer', [])
   .component('ghrFooter', {
-    templateUrl: 'app/footer.html'
+    templateUrl: '../bower_components/component-footer/footer.html'
   });
